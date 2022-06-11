@@ -1,27 +1,15 @@
 # NgFourteen
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.1.
+This project acts as a sandbox for the Angular v14 release.
+New features that are used within this sandbox are flagged with a `NEW` comment.
 
-## Development server
+## Resources
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The list of resources that I used to get up-to-date, and to create this sandbox:
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- [Angular v14 is now available!](https://blog.angular.io/angular-v14-is-now-available-391a6db736af'), Emma Twersky
+- [🔥 What’s New in Angular v14](https://netbasal.com/whats-new-in-angular-v14-df1b0c5d5e2f'), Netanel Basal
+- [Page Titles Natively With The Angular Router 🔥](https://dev.to/brandontroberts/setting-page-titles-natively-with-the-angular-router-393j'), Brandon Roberts
+- [NgRx Packages in Standalone Angular Apps](https://dev.to/markostanimirovic/using-ngrx-packages-in-standalone-angular-apps-4mga-temp-slug-3946368'), Marko Stanimirović
+- [Angular Inject & Injection Functions - Patterns & Anti-Patterns](https://marmicode.io/blog/angular-inject-and-injection-functions'), Younes Jaaidi
+- [refactor(cdk/menu): use inject for all injection](https://github.com/angular/components/pull/24941'), Pull Request within the Angular Material to use inject
