@@ -19,7 +19,8 @@ import {CommonModule} from "@angular/common";
   `
 })
 export class HomeComponent {
-  links = [
+  // NEW: protected component members in template
+  protected links = [
     {
       url: 'https://blog.angular.io/angular-v14-is-now-available-391a6db736af',
       title: 'Angular v14 is now available!',
