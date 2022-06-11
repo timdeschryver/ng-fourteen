@@ -1,4 +1,4 @@
-import {Component, Input} from "@angular/core";
+import {Component, inject} from "@angular/core";
 import {FormBuilder, ReactiveFormsModule, Validators} from "@angular/forms";
 
 @Component({
@@ -25,16 +25,18 @@ import {FormBuilder, ReactiveFormsModule, Validators} from "@angular/forms";
   `
 })
 export class TypedFormComponent {
+  // NEW: inject DI
+  private fb = inject(FormBuilder)
+
   // NEW: Typed Reactive Form
   //             👇
-  form = this.fb.nonNullable.group({
+  protected form = this.fb.nonNullable.group({
     name: this.fb.nonNullable.control('', [Validators.required]),
     lastName: this.fb.nonNullable.control('', [Validators.required]),
   })
 
-  constructor(private fb: FormBuilder) {}
 
-  submitForm() {
+  protected submitForm() {
     if (this.form.valid) {
       // NEW: Typed Reactive Form
 
