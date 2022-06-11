@@ -1,6 +1,6 @@
 import {RouterTestingModule} from "@angular/router/testing";
-import { render, screen } from '@testing-library/angular';
-import { AppComponent } from './app.component';
+import {render, screen} from '@testing-library/angular';
+import {AppComponent} from './app.component';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
@@ -10,6 +10,6 @@ describe('AppComponent', () => {
   });
 
   it('should render title', () => {
-    expect(screen.getByText(/ng-fourteen app is running/i)).not.toBeNull()
+    expect(screen.getByRole('heading', {name: /Angular 14/i})).not.toBeNull()
   });
 });
