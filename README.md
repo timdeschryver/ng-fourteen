@@ -13,3 +13,7 @@ The list of resources that I used to get up-to-date, and to create this sandbox:
 - [NgRx Packages in Standalone Angular Apps](https://dev.to/markostanimirovic/using-ngrx-packages-in-standalone-angular-apps-4mga-temp-slug-3946368'), Marko Stanimirović
 - [Angular Inject & Injection Functions - Patterns & Anti-Patterns](https://marmicode.io/blog/angular-inject-and-injection-functions'), Younes Jaaidi
 - [refactor(cdk/menu): use inject for all injection](https://github.com/angular/components/pull/24941'), Pull Request within the Angular Material to use inject
+
+## Demo
+
+[Stackblitz](https://stackblitz.com/github/timdeschryver/ng-fourteen).
