@@ -37,7 +37,7 @@ export class HomeComponent {
       author: 'Brandon Roberts'
     },
     {
-      url: 'https://dev.to/markostanimirovic/using-ngrx-packages-in-standalone-angular-apps-4mga-temp-slug-3946368',
+      url: 'https://dev.to/ngrx/using-ngrx-packages-with-standalone-angular-features-53d8',
       title: 'NgRx Packages in Standalone Angular Apps',
       author: 'Marko Stanimirović'
     },
