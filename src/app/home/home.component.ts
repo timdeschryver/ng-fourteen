@@ -1,6 +1,6 @@
-import {Component} from "@angular/core";
-import {LinkComponent} from "./link.component";
-import {CommonModule} from "@angular/common";
+import { Component } from '@angular/core';
+import { LinkComponent } from './link.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-home',
@@ -8,7 +8,7 @@ import {CommonModule} from "@angular/common";
   standalone: true,
   imports: [
     CommonModule, // needed to use *ngFor
-    LinkComponent // child component
+    LinkComponent, // child component
   ],
   template: `
     <ul>
@@ -16,7 +16,7 @@ import {CommonModule} from "@angular/common";
         <app-link [link]="link"></app-link>
       </li>
     </ul>
-  `
+  `,
 })
 export class HomeComponent {
   // NEW: protected component members in template
@@ -24,32 +24,37 @@ export class HomeComponent {
     {
       url: 'https://blog.angular.io/angular-v14-is-now-available-391a6db736af',
       title: 'Angular v14 is now available!',
-      author: 'Emma Twersky'
+      author: 'Emma Twersky',
     },
     {
       url: 'https://netbasal.com/whats-new-in-angular-v14-df1b0c5d5e2f',
       title: '🔥 What’s New in Angular v14',
-      author: 'Netanel Basal'
+      author: 'Netanel Basal',
     },
     {
       url: 'https://dev.to/brandontroberts/setting-page-titles-natively-with-the-angular-router-393j',
       title: 'Page Titles Natively With The Angular Router 🔥',
-      author: 'Brandon Roberts'
+      author: 'Brandon Roberts',
     },
     {
       url: 'https://dev.to/markostanimirovic/using-ngrx-packages-in-standalone-angular-apps-4mga-temp-slug-3946368',
       title: 'NgRx Packages in Standalone Angular Apps',
-      author: 'Marko Stanimirović'
+      author: 'Marko Stanimirović',
     },
     {
       url: 'https://marmicode.io/blog/angular-inject-and-injection-functions',
       title: 'Angular Inject & Injection Functions - Patterns & Anti-Patterns',
-      author: 'Younes Jaaidi'
+      author: 'Younes Jaaidi',
     },
     {
       url: 'https://github.com/angular/components/pull/24941',
       title: 'refactor(cdk/menu): use inject for all injection',
-      author: 'Pull Request within the Angular Material to use inject'
+      author: 'Pull Request within the Angular Material to use inject',
     },
-  ]
+    {
+      url: 'https://twitter.com/search?q=from%3A%40angular%20%23ngUpdate&src=typed_query&f=live',
+      title: 'v14 Snippets',
+      author: '@angular',
+    },
+  ];
 }
